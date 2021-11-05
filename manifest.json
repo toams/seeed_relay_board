@@ -1,0 +1,6 @@
+{
+  "domain": "seeed4relay",
+  "name": "seeed 4 relay",
+  "requirements": ["smbus-cffi"],
+  "codeowners": []
+}
