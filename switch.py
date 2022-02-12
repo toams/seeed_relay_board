@@ -5,7 +5,7 @@ import logging
 from homeassistant.components.switch import PLATFORM_SCHEMA, SwitchEntity
 from homeassistant.const import CONF_NAME, CONF_SWITCHES
 import homeassistant.helpers.config_validation as cv
-from . import DOMAIN
+#from . import DOMAIN
 from . import relay_lib_seeed
 
 _LOGGER = logging.getLogger(__name__)
@@ -23,7 +23,7 @@ PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend(
 
 
 def setup_platform(hass, config, add_entities, discovery_info=None):
-    port = hass.data[DOMAIN]
+  #  port = hass.data[DOMAIN]
 
     switches =  []
     ports = config.get(CONF_PORTS)
