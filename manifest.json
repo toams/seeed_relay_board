@@ -1,5 +1,5 @@
 {
-  "domain": "seeed4relay",
+  "domain": "seeed_relay_board",
   "name": "seeed 4 relay",
   "requirements": ["smbus-cffi"],
   "codeowners": []

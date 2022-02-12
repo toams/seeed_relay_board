@@ -28,11 +28,11 @@ def setup_platform(hass, config, add_entities, discovery_info=None):
     switches =  []
     ports = config.get(CONF_PORTS)
     for port, name in ports.items():
-        switches.append(seeed4relay(name, port))
+        switches.append(seeed_relay_boardSwitch(name, port))
     add_entities(switches)
 
 
-class seeed4relay(SwitchEntity):
+class seeed_relay_boardSwitch(SwitchEntity):
 
     def __init__(self, name, port):
         self._name = name
