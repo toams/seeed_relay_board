@@ -1,6 +1,8 @@
 {
   "domain": "seeed_relay_board",
   "name": "seeed 4 relay",
+  "version": "0.0.1",
   "requirements": ["smbus-cffi"],
   "codeowners": []
+  "iot_class": "local_polling"
 }
